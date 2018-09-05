@@ -1,0 +1,31 @@
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Application</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:���" rel="\stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
+
+</head>
+<body>
+
+<header>
+
+<h1> <a href="/"> Django blog </a> </h1>
+
+</header>
+
+<div id="container">
+
+{% block content %}
+
+
+
+{% endblock %}
+
+  </div>
+
+</body>
+</html>
